@@ -84,6 +84,18 @@ export default function ContactUs() {
                   numberOfLines={5}
                 />
               </View>
+              <View style={styles.input}>
+                <Button
+                  mode="contained"
+                  onPress={() => navigation.navigate("aboutus")}
+                >
+                  About Us
+                </Button>
+              </View>
+              <Text>{name}</Text>
+            </View>
+            <View style={styles.footer}>
+              <Text>MyApp © 2024</Text>
             </View>
           </View>
         </ScrollView>
