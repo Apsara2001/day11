@@ -10,7 +10,9 @@ export default function AboutUs() {
                 <View style={styles.container}>
                     <Text variant="headlineLarge">History</Text>
                     <Divider />
-
+                    <View style={styles.imagepad}>
+                        <Image source={require('../assets/uovlogo.png')} style={styles.image}/>
+                    </View>
                     <Text variant="bodyMedium" style={styles.body}>
                         The Northern Province Affiliated University College (NPAUC) was established in 1991. Subsequently, by an order made under Section 22 of the Universities Act No. 16 of 1978, the Vavuniya Campus of the University of Jaffna was established on 1st April 1997 with two faculties, namely the Faculty of Applied Science and the Faculty of Business Studies. In 2020, by the Extraordinary Gazette No. 2160/43 dated 30.01.2020, the Faculty of Technological Studies was also established. All three faculties offer twelve degree programs of three and four year duration at present.
 
