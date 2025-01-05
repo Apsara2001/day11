@@ -61,8 +61,43 @@ export default function AboutUs() {
           <Button mode="outlined" onPress={() => navigation.popToTop()}>
             Go to Top Screen
           </Button>
+          <View style={styles.footer}>
+            <Text>MyApp © 2024</Text>
+          </View>
         </View>
       </ScrollView>
     </PaperProvider>
   );
 }
+const styles = StyleSheet.create({
+    container: {
+        flexDirection: 'column',
+        backgroundColor: '#fff',
+        justifyContent: 'space-between',
+        padding: 10
+    },
+    imagepad: {
+        padding: 8,
+        alignItems: 'center',
+        flex: 2,
+        marginBottom: 10
+    },
+    image: {
+        width: '80%',
+        height: 70,
+    },
+    body: {
+        padding: 8,
+        textAlign: 'justify',
+        flex: 6,
+    },
+    scrollView: {
+        flexGrow: 1,
+    },
+    footer: {
+        flex: 2,
+        width: "100%",
+        alignItems: 'center',
+        marginTop: 10
+    }
+});
