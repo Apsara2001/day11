@@ -103,3 +103,38 @@ export default function ContactUs() {
     </PaperProvider>
   );
 }
+const styles = StyleSheet.create({
+    container: {
+        flexDirection: 'column',
+        backgroundColor: '#fff',
+        justifyContent: 'space-between',
+        padding: 10
+    },
+    header: {
+        flex: 3,
+        width: "100%",
+        alignItems: 'center',
+        padding: 10,
+        marginBottom: 10
+    },
+    body: {
+        flex: 5,
+        width: "100%"
+    },
+    footer: {
+        flex: 2,
+        width: "100%",
+        alignItems: 'center'
+    },
+    input: {
+        padding: 8,
+        marginBottom: 7
+    },
+    scrollView: {
+        flexGrow: 1, 
+    },
+    keyboardAvoidingView: {
+        flex: 1, 
+    }
+});
+
